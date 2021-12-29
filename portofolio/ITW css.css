@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif; 
+    color: whitesmoke;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    height: 40px;
+    z-index: 100000;
+    background-color: burlywood;
+    position: fixed;
+    padding-bottom: 10px;
+}
+.header-logo {
+    color: white;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    float: left;    
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    
+}
+ul li a {
+    color: white;
+}
+.navbar {
+    float: left;
+    padding-right: 20px;
+}
+.nav {
+    margin-left: 840px;
+}
+.home-area, .bio-area, .about-area, .hobby-area, .contact-area {
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+.home-area {
+  background-color: plum;
+  background-image: url(img.png/poto.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.text-home {
+    margin-left: 65px;
+    margin-top: 100px;
+}
+.text-home a {
+    color: yellow;
+}
+.text-home h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-top: 170px;
+}
+.text-home h1 {
+    font-size: 4em;
+}
+.text-home .description {
+    padding-top: 15px;
+}
+.bio-area {
+    background-color: black;
+    background-image: url(img.png/mut.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.text-bio {
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.text-bio p {
+    font-size: 150%;
+    padding-top: 15px;
+}
+.text-bio h1 {
+    font-size: 250%;
+}
+.text-bio .name {
+    margin-top: 50px;
+}
+.about-area {
+    background-color: black;
+    background-image: url(img.png/ara.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;    
+}
+.text-about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 65px;
+    margin-top: 100px;
+    max-width: 675px;
+}
+.Gallery-area {
+   background-color: burlywood;
+   background-image: url(img.png/coklat.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;       
+}
+.contact-area {
+    background-color: black;
+    background-image: url(img.png/coklat.jpg);
+}
+.text-gallery {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    margin-left: 650px;
+    margin-top: 100px;
+    max-width: 650px;
+}
+.gallery-Mutiara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    width: 20px;
+    height: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+      background-color: burlywood;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+      background-color: burlywood;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  }
